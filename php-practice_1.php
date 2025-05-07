@@ -106,5 +106,4 @@ function evaluateGrade($judge) {
 }
 echo evaluateGrade('A') . "\n";
 echo evaluateGrade('E') . "\n";
-
 ?>
