@@ -1,5 +1,5 @@
 <?php
-// Q1 tic-tac問題
+// ☆Q1 tic-tac問題
 echo "1から100までのカウントを開始します\n";
 echo "\n";
 
@@ -90,7 +90,7 @@ foreach ($ageList as $koumoku => $value) {
   $personalInfos[$koumoku]['age'] = $value;
 }
 
-// Q3 オブジェクト-1
+// ☆Q3 オブジェクト-1
 class Student
 {
     public $studentId;
@@ -111,7 +111,7 @@ class Student
 $student = new Student(120, '山田');
 echo '学籍番号' . $student->studentId . '番の生徒は' . $student->studentName . 'です。';
 
-// Q4 オブジェクト-2
+// ☆Q4 オブジェクト-2
 class Student
 {
     public $studentId;
@@ -132,7 +132,7 @@ class Student
 $yamada = new Student(120, '山田');
 $yamada->attend('PHP');
 
-// Q5 定義済みクラス
+// ☆Q5 定義済みクラス
  //5-1
 date_default_timezone_set("Asia/Tokyo");
 $today = new DateTime();
